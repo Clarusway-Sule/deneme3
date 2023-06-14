@@ -14,5 +14,11 @@ def listfilepaths(path=os.getcwd()):
 
 def list_files(image_dir, pattern):
     return [image for image in glob.glob(osp.join(image_dir, pattern))]
+def list_files(image_dir, pattern):
+    return [image for image in glob.glob(osp.join(image_dir, pattern))]
+def list_files(image_dir, pattern):
+    return [image for image in glob.glob(osp.join(image_dir, pattern))]
+def list_files(image_dir, pattern):
+    return [image for image in glob.glob(osp.join(image_dir, pattern))]
 
 list_images(r"C\Users\Picture", ".jpg")
