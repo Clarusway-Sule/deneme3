@@ -4,12 +4,14 @@
  
 <p id="deneme"></p>
  <h1>hello icardi was here </h1>
+ <h2>hello icardi was here 2</h2>
 <script>
 var day;
 switch (new Date().getDay()) {
-    case 0:
-        day = "Pazar";
-        break;
+   
+
+
+   
     case 1:
         day = "Pazartesi";
         break;
