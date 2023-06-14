@@ -3,7 +3,7 @@
 <body>
  
 <p id="deneme"></p>
- 
+ <h1>hello icardi was here </h1>
 <script>
 var day;
 switch (new Date().getDay()) {
@@ -16,16 +16,17 @@ switch (new Date().getDay()) {
     case 2:
         day = "Salı";
         break;
+
+
+
+    
     case 3:
         day = "Çarşamba";
         break;
     case 4:
         day = "Perşembe";
         break;
-    case 5:
-        day = "Cuma";
-        break;
-
+    
 }
 document.getElementById("deneme").innerHTML = "Bugün " + day;
 </script>
