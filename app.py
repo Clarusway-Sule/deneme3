@@ -5,6 +5,7 @@ def listfolderpaths(path=os.getcwd()):
             if not is_private(name) and os.path.isdir(pathname):
                 folderlist.append(pathname)
         return folderlist
+Baslik eklenmesi istendi buraya baslik ekledim
 degiisklik yapmam istendi.. burada kucuk bir degisiklik yapiyorum..
 def listfolderpaths(path=os.getcwd()):
     return [os.path.join(path, name) for name in os.listdir(path) if (not is_private(name) and os.path.isdir(os.path.join(path, name)))]
