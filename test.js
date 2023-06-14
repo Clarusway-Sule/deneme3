@@ -25,9 +25,7 @@ switch (new Date().getDay()) {
     case 5:
         day = "Cuma";
         break;
-    case  6:
-        day = "Cumartesi";
-        break;
+
 }
 document.getElementById("deneme").innerHTML = "Bugün " + day;
 </script>
